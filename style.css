@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1463947628408-f8581a2f4aca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNreXxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  font-size: 22px;
+  background-color: transparent;
+}
+.weather-container {
+  height: 60vh;
+  width: 400px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 2px solid lightgrey;
+}
+
+.before-data{
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  width: 80%;
+  margin-left: 40px;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.input-city {
+  background-color: rgba(255, 255, 255, 0.66);
+  border: 1px solid white;
+  margin: 5px;
+  padding: 9px;
+  padding-left: 15px;
+  border-radius: 20px;
+  height: 85%;
+  width: 85%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  margin: 8px;
+  /* background-color: aquamarine; */
+}
+
+.search-icon {
+  height: 85%;
+  aspect-ratio: 1 / 1;
+  margin: 5px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+
+.fa-cloud {
+  font-size: 100px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.weather-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-icon .weather {
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+}
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.actual {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 900;
+}
+.feels {
+  font-size: 14px;
+  color: rgb(241, 240, 240);
+}
+.location {
+  display: flex;
+  gap: 10px;
+}
+
+.city {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.country {
+  margin-top: 0.3rem;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.extras{
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.feature{
+    padding: 10px;
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+}
+.none{
+  display: none;
+}

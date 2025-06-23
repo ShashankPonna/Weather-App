@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-container">
+        <div class="search">
+          <input type="text" class="input-city" placeholder="location" />
+          <div class="search-icon"><i class="fas fa-search"></i></div>
+        </div>
+        <div class="before-data">
+          <span>Search a City...</span><br><br><br>
+          “There is no such thing as bad weather, only different kinds of good weather.”
+        </div>
+        <div class="after-data none">
+          <div class="sec2">
+          <div class="weather-icon">
+            <div class="icon"></div>
+            <div class="weather"></div>
+          </div>
+          <div class="temp">
+            <div class="actual"></div>
+            <div class="feels"></div>
+          </div>
+          <div class="location">
+            <div class="city"></div>
+            <div class="country"></div>
+          </div>
+        </div>
+        <div class="extras none">
+          <div class="feature" id="humidity"></div>
+          <div class="feature" id="windSpeed"></div>
+          <div class="feature" id="min"></div>
+          <div class="feature" id="max"></div>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
