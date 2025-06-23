@@ -17,5 +17,5 @@ Here, you can check the weather of any city you like.
 - JavaScript  
 - OpenWeatherMap API
 
-
+---
 Made by Shashank Ponna
